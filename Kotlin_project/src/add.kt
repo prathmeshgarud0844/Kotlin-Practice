@@ -1,6 +1,6 @@
-fun add(){
+fun main() {
+    val x: Int = 10
+    val y: Int = 25;
+    val z = x + y
+    println("The sum of $x + $y is  $z")}
 
-     val a=2
-    val b=7
-    println("sum of $a and $b is ${a+b}")
-}
