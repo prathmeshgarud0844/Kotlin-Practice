@@ -1,8 +1,0 @@
-
-//function definition
-fun sample() {
-
-
-
-
-}
