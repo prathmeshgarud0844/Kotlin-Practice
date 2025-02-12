@@ -30,7 +30,7 @@ class Emp:Person()
 fun main(){
     var obj2=Person()
     obj2.display()
-obj2.display()
+
     var obj1=Emp()
     obj1.display()
 obj1.display2()
