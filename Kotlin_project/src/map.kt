@@ -10,7 +10,8 @@
 //        for (key in map.keys) {
 //            println(map[key])
 //        }
-//
+
+
     fun main() {
     // Create a HashMap to store intern ID as key and intern name as value
     val interns = hashMapOf(
@@ -24,5 +25,3 @@
         println("ID: $id, Name: $name")
     }
 }
-
-
