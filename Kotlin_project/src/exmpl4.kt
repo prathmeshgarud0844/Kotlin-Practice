@@ -10,3 +10,5 @@ fun main(args: Array<String>) {
     val squareOfNumber= n*n
  println(squareOfNumber)   // Your code here: Calculate and print the square of n
 }
+
+

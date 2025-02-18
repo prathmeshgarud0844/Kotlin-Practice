@@ -41,11 +41,3 @@
 //// Sort using a lambda
 //val sortedNames = names.sortedBy { it.length }
 //println(sortedNames) // Output: [Bob, John, Alice]
-//
-//Feature                 for Loop                                         forEach Loop
-//Style                 Imperative                                         Functional
-//Syntax           Uses for (element in collection)               Uses collection.forEach { lambda }
-//Control Flow    Supports break and continue               Does not support break or continue
-//Performance    Slightly faster in certain cases      Minor overhead due to lambda invocation
-//Readability    Better for complex logic                  Better for simple operations
-//Use Case    Modifying collection, complex iteration     Simple actions on collection elements

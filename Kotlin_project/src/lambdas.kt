@@ -5,8 +5,9 @@ fun main() {
     val n = 5
 
 
-    val add= { num1:Int, num2 :Int -> num1 + num2 }
-  //  println("$num1+$num2=${num1 + num2}")
+    val add= { num1:Int, num2:Int -> num1 + num2 }
+
+
     println("Addition of two values ${add(num1, num2)}")
 
     val square: (n: Int) -> Int = { n-> n * n }

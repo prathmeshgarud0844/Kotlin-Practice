@@ -8,11 +8,11 @@ fun main() {
 
     fun max (a: Int, b: Int): Int
        = if (a > b) {
-        print("$a is greater $b")
+        println("$a is greater than $b")
         a
     } else
     {
-        print("$b is greater $b")
+        println("$b is greater $b")
 b
     }
 

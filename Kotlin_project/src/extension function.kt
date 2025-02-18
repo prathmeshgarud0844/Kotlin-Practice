@@ -11,7 +11,7 @@ fun main() {
     println(greaterVal)
 
 }
-    fun String.add(str1:String, str2:String):String{
+    fun String.add(str1:String, str2:String):String {
         return str1 + str2+this
     }
 

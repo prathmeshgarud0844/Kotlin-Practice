@@ -1,4 +1,5 @@
-fun main() {
+fun main()
+{
     val number = readLine()?.toIntOrNull()
 
     if (number != null) {
