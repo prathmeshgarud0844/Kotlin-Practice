@@ -19,14 +19,23 @@
 //    }
 //    }
 //}
-//
-//fun sumArray(arr:IntArray): Int{
-//    return arr.sum()
-//
-//}
+//import kotlin.math.sqrt
+
 //
 //fun main() {
-//    val numbers = intArrayOf(5, 10, 15, 20)
-//    println("sum of array is ${sumArray(numbers)}")
+//    val num = readln().toInt()
 //
+//    val square = num * num
+//    val squareRoot = sqrt(num.toDouble())
+//
+//    println("Square: $square, Square root: $squareRoot")
+//}
+//fun checkAgeCategory(age: Int) {
+//    if (age < 18) {
+//        println("Minor")
+//    } else if (age < 65) {
+//        println("Adult")
+//    } else {
+//        println("Senior")
+//    }
 //}
